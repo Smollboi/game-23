@@ -1,0 +1,4189 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 99,
+    "major": 4,
+    "minor": 0,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "antialiasingMode": "MSAA",
+    "antialisingEnabledOnMobile": false,
+    "folderProject": true,
+    "orientation": "landscape",
+    "packageName": "com.example.platformer",
+    "pixelsRounding": false,
+    "projectUuid": "9f4d6f6c-d5c9-4cbb-bb45-25c1dd4655b7",
+    "scaleMode": "linear",
+    "sizeOnStartupMode": "",
+    "templateSlug": "platformer",
+    "useExternalSourceFiles": false,
+    "version": "1.0.0",
+    "name": "Smoll Boi's Mission!",
+    "description": "my dream game....",
+    "author": "Smoll Boi",
+    "windowWidth": 1086,
+    "windowHeight": 576,
+    "latestCompilationDirectory": "",
+    "maxFPS": 120,
+    "minFPS": 60,
+    "verticalSync": false,
+    "platformSpecificAssets": {
+      "android-icon-144": "",
+      "android-icon-192": "",
+      "android-icon-36": "",
+      "android-icon-48": "",
+      "android-icon-72": "",
+      "android-icon-96": "",
+      "android-windowSplashScreenAnimatedIcon": "",
+      "desktop-icon-512": "Screenshot 2023-12-09 114350.png",
+      "ios-icon-100": "",
+      "ios-icon-1024": "",
+      "ios-icon-114": "",
+      "ios-icon-120": "",
+      "ios-icon-144": "",
+      "ios-icon-152": "",
+      "ios-icon-167": "",
+      "ios-icon-180": "",
+      "ios-icon-20": "",
+      "ios-icon-29": "",
+      "ios-icon-40": "",
+      "ios-icon-50": "",
+      "ios-icon-57": "",
+      "ios-icon-58": "",
+      "ios-icon-60": "",
+      "ios-icon-72": "",
+      "ios-icon-76": "",
+      "ios-icon-80": "",
+      "ios-icon-87": "",
+      "liluo-thumbnail": "Title Screen2.png"
+    },
+    "loadingScreen": {
+      "backgroundColor": 7667712,
+      "backgroundFadeInDuration": 2,
+      "backgroundImageResourceName": "Place Holders\\Screenshot 2023-12-05 142216.png",
+      "gdevelopLogoStyle": "dark-colored",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0,
+      "minDuration": 2,
+      "progressBarColor": 15794243,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": false
+    },
+    "authorIds": [
+      "UBaJArbx5IXkq9SmNmFbeS79Bxo2"
+    ],
+    "authorUsernames": [
+      "Smoll_Boi"
+    ],
+    "categories": [],
+    "playableDevices": [
+      "keyboard",
+      "gamepad",
+      "mobile"
+    ],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "file": "assets/PTSans-Bold2.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "PTSans-Bold.ttf",
+        "userAdded": false
+      },
+      {
+        "file": "assets/death2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "death.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/coin2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "coin.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/checkpoint2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "checkpoint.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/black2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/gui/black.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red hero_Climb_13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Red hero_Climb_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red hero_Climb_14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Red hero_Climb_2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red hero_Climb_15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Red hero_Climb_3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red hero_Climb_16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Red hero_Climb_4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red hero_Climb_17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Red hero_Climb_5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red hero_Climb_18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Red hero_Climb_6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red hero_Climb_19.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Red hero_Climb_7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red hero_Climb_20.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Red hero_Climb_8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red hero_Climb_21.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Red hero_Climb_9.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red hero_Climb_22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Red hero_Climb_10.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red hero_Climb_23.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Red hero_Climb_11.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red hero_Climb_24.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Red hero_Climb_12.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red hero_Fall2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Red hero_Fall.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Platform2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Platform 1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Platform3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Platform 2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Platform4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Platform 3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Corner platform2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Corner platform.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Door2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Door.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Checkpoint_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Checkpoint_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Checkpoint_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Checkpoint_2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Checkpoint_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Checkpoint_3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Checkpoint_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Checkpoint_4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Clouds2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Clouds.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Fly_11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Fly_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Fly_12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Fly_2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Fly_13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Fly_3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Fly_14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Fly_4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Fly_15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Fly_5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Fly_16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Fly_6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Fly_17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Fly_7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Fly_18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Fly_8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Fly_19.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Fly_9.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Fly_20.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Fly_10.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Monster_Idle_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Monster_Idle_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Monster_Idle_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Monster_Idle_2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Monster_Fire_11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Monster_Fire_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Monster_Fire_12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Monster_Fire_2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Monster_Fire_13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Monster_Fire_3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Monster_Fire_14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Monster_Fire_4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Monster_Fire_15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Monster_Fire_5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Monster_Fire_16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Monster_Fire_6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Monster_Fire_17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Monster_Fire_7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Monster_Fire_18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Monster_Fire_8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Monster_Fire_19.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Monster_Fire_9.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Monster_Fire_20.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Monster_Fire_10.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Background2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiled_Background.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Coin2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Coin.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ladder2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ladder.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/boundary2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\boundary.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Top arrow round button2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Top arrow round button.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/shadedDark46.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "shadedDark45.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Purple Button With Shadow_Hovered2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Purple Button With Shadow_Hovered.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/4a64488d212c7a69721b3ac48319e64bc830f5663535fdafb18e2fc907e8d10a_Purple Button With Shadow_Hovered.png",
+          "name": "Purple Button With Shadow_Hovered.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Purple Button With Shadow_Idle2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Purple Button With Shadow_Idle.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/e44a40d67427b4e53751fc82b5ad4d87b2daf311558dcf0151cd1b173b7e5dcf_Purple Button With Shadow_Idle.png",
+          "name": "Purple Button With Shadow_Idle.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Purple Button With Shadow_Pressed2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Purple Button With Shadow_Pressed.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/04a69986487fb427759132f3807a28db0f3b845623d5ba34d063f46a9ee22f63_Purple Button With Shadow_Pressed.png",
+          "name": "Purple Button With Shadow_Pressed.png"
+        }
+      },
+      {
+        "file": "assets/CantoraOne-Regular2.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "CantoraOne-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/05b0c1364a92b436b86ca819e66b63480d1bc2fb399f6c0cf8bffbf8199ccc2a_CantoraOne-Regular.ttf",
+          "name": "CantoraOne-Regular.ttf"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Thumbstick_Dark2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\gui\\Thumbstick_Dark.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Thumbstick Boundary_Dark161.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\gui\\Thumbstick Boundary_Dark160.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite4",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hurt2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hurt",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image7",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image10",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image11",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image12",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image13",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/MPLUS1p-Thin2.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "fb2c26ad0e4883807fe0d285cbc0afc6f7888286316aca8023e700007df130b7_MPLUS1p-Thin.ttf",
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Google Fonts/Japanese/fb2c26ad0e4883807fe0d285cbc0afc6f7888286316aca8023e700007df130b7_MPLUS1p-Thin.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/CaveatBrush-Regular2.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "3d58de3ba4305c72907c2b4367cf859232313400b5c22da139d35b13d2273d40_CaveatBrush-Regular.ttf",
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/3d58de3ba4305c72907c2b4367cf859232313400b5c22da139d35b13d2273d40_CaveatBrush-Regular.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image19.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/New image14.png\"}",
+        "name": "New image14",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Parallax Background Sky2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_Parallax Background Sky.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Backgrounds/303843591493620bd620aabe58e3cc6de8219999db9c23edb60dbbbac25d1e8b_tiled_Parallax Background Sky.png",
+          "name": "tiled_Parallax Background Sky.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Tiled Empty UI Heart2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_Tiled Empty UI Heart.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/688519c5bb4abaf5805518633f2ff810928e29164497fb5c13dabf97044be843_tiled_Tiled Empty UI Heart.png",
+          "name": "tiled_Tiled Empty UI Heart.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Tiled Filler UI Heart3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "5b5c6c85ec4e1f5b6688be565c9a06920a76ee191915738afd61da1481fd6493_tiled_Tiled Filler UI Heart.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/5b5c6c85ec4e1f5b6688be565c9a06920a76ee191915738afd61da1481fd6493_tiled_Tiled Filler UI Heart.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hover3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "hover",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Squish51.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Squish37.png\"}",
+        "name": "Squish37",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Squish52.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Squish38.png\"}",
+        "name": "Squish38",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Squish53.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Squish39.png\"}",
+        "name": "Squish39",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Squish54.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Squish40.png\"}",
+        "name": "Squish40",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Squish55.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Squish41.png\"}",
+        "name": "Squish41",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Squish56.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Squish42.png\"}",
+        "name": "Squish42",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Squish57.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Squish43.png\"}",
+        "name": "Squish43",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Squish58.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Squish44.png\"}",
+        "name": "Squish44",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Squish59.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Squish45.png\"}",
+        "name": "Squish45",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Squish60.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Squish46.png\"}",
+        "name": "Squish46",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Squish61.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Squish47.png\"}",
+        "name": "Squish47",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Squish62.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Squish48.png\"}",
+        "name": "Squish48",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Squish63.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Squish49.png\"}",
+        "name": "Squish49",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Squish64.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Squish50.png\"}",
+        "name": "Squish50",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hurt Idle2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hurt Idle",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "idle7",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hover5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "hover2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle -Bush Woot-2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle [Bush Woot]",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Walk -Bush Woot-15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Walk [Bush Woot].png\"}",
+        "name": "Walk [Bush Woot]",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Walk -Bush Woot-1.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Walk [Bush Woot]2.png\"}",
+        "name": "Walk [Bush Woot]2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Walk -Bush Woot0.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Walk [Bush Woot]3.png\"}",
+        "name": "Walk [Bush Woot]3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Walk -Bush Woot1.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Walk [Bush Woot]4.png\"}",
+        "name": "Walk [Bush Woot]4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Walk -Bush Woot2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Walk [Bush Woot]5.png\"}",
+        "name": "Walk [Bush Woot]5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Walk -Bush Woot3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Walk [Bush Woot]6.png\"}",
+        "name": "Walk [Bush Woot]6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Walk -Bush Woot4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Walk [Bush Woot]7.png\"}",
+        "name": "Walk [Bush Woot]7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Walk -Bush Woot5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Walk [Bush Woot]8.png\"}",
+        "name": "Walk [Bush Woot]8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Walk -Bush Woot6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Walk [Bush Woot]9.png\"}",
+        "name": "Walk [Bush Woot]9",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Walk -Bush Woot7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Walk [Bush Woot]10.png\"}",
+        "name": "Walk [Bush Woot]10",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Walk -Bush Woot8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Walk [Bush Woot]11.png\"}",
+        "name": "Walk [Bush Woot]11",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Walk -Bush Woot9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Walk [Bush Woot]12.png\"}",
+        "name": "Walk [Bush Woot]12",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Walk -Bush Woot10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Walk [Bush Woot]13.png\"}",
+        "name": "Walk [Bush Woot]13",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Walk -Bush Woot11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Walk [Bush Woot]14.png\"}",
+        "name": "Walk [Bush Woot]14",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Walk Stare -Bush Woot-15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Walk Stare [Bush Woot].png\"}",
+        "name": "Walk Stare [Bush Woot]",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Walk Stare -Bush Woot-1.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Walk Stare [Bush Woot]2.png\"}",
+        "name": "Walk Stare [Bush Woot]2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Walk Stare -Bush Woot0.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Walk Stare [Bush Woot]3.png\"}",
+        "name": "Walk Stare [Bush Woot]3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Walk Stare -Bush Woot1.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Walk Stare [Bush Woot]4.png\"}",
+        "name": "Walk Stare [Bush Woot]4",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Walk Stare -Bush Woot2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Walk Stare [Bush Woot]5.png\"}",
+        "name": "Walk Stare [Bush Woot]5",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Walk Stare -Bush Woot3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Walk Stare [Bush Woot]6.png\"}",
+        "name": "Walk Stare [Bush Woot]6",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Walk Stare -Bush Woot4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Walk Stare [Bush Woot]7.png\"}",
+        "name": "Walk Stare [Bush Woot]7",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Walk Stare -Bush Woot5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Walk Stare [Bush Woot]8.png\"}",
+        "name": "Walk Stare [Bush Woot]8",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Walk Stare -Bush Woot6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Walk Stare [Bush Woot]9.png\"}",
+        "name": "Walk Stare [Bush Woot]9",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Walk Stare -Bush Woot7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Walk Stare [Bush Woot]10.png\"}",
+        "name": "Walk Stare [Bush Woot]10",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Walk Stare -Bush Woot8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Walk Stare [Bush Woot]11.png\"}",
+        "name": "Walk Stare [Bush Woot]11",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Walk Stare -Bush Woot9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Walk Stare [Bush Woot]12.png\"}",
+        "name": "Walk Stare [Bush Woot]12",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Walk Stare -Bush Woot10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Walk Stare [Bush Woot]13.png\"}",
+        "name": "Walk Stare [Bush Woot]13",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Walk Stare -Bush Woot11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Walk Stare [Bush Woot]14.png\"}",
+        "name": "Walk Stare [Bush Woot]14",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Landed -Bush Woot-15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Landed [Bush Woot].png\"}",
+        "name": "Landed [Bush Woot]",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Landed -Bush Woot-1.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Landed [Bush Woot]2.png\"}",
+        "name": "Landed [Bush Woot]2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Landed -Bush Woot0.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Landed [Bush Woot]3.png\"}",
+        "name": "Landed [Bush Woot]3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Landed -Bush Woot1.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Landed [Bush Woot]4.png\"}",
+        "name": "Landed [Bush Woot]4",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Landed -Bush Woot2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Landed [Bush Woot]5.png\"}",
+        "name": "Landed [Bush Woot]5",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Landed -Bush Woot3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Landed [Bush Woot]6.png\"}",
+        "name": "Landed [Bush Woot]6",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Landed -Bush Woot4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Landed [Bush Woot]7.png\"}",
+        "name": "Landed [Bush Woot]7",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Landed -Bush Woot5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Landed [Bush Woot]8.png\"}",
+        "name": "Landed [Bush Woot]8",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Landed -Bush Woot6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Landed [Bush Woot]9.png\"}",
+        "name": "Landed [Bush Woot]9",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Landed -Bush Woot7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Landed [Bush Woot]10.png\"}",
+        "name": "Landed [Bush Woot]10",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Landed -Bush Woot8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Landed [Bush Woot]11.png\"}",
+        "name": "Landed [Bush Woot]11",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Landed -Bush Woot9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Landed [Bush Woot]12.png\"}",
+        "name": "Landed [Bush Woot]12",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Landed -Bush Woot10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Landed [Bush Woot]13.png\"}",
+        "name": "Landed [Bush Woot]13",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Landed -Bush Woot11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Landed [Bush Woot]14.png\"}",
+        "name": "Landed [Bush Woot]14",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Jump On -Bush Woot-10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Jump On [Bush Woot].png\"}",
+        "name": "Jump On [Bush Woot]",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Jump On -Bush Woot-1.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Jump On [Bush Woot]2.png\"}",
+        "name": "Jump On [Bush Woot]2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Jump On -Bush Woot0.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Jump On [Bush Woot]3.png\"}",
+        "name": "Jump On [Bush Woot]3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Jump On -Bush Woot1.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Jump On [Bush Woot]4.png\"}",
+        "name": "Jump On [Bush Woot]4",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Jump On -Bush Woot2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Jump On [Bush Woot]5.png\"}",
+        "name": "Jump On [Bush Woot]5",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Jump On -Bush Woot3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Jump On [Bush Woot]6.png\"}",
+        "name": "Jump On [Bush Woot]6",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Jump On -Bush Woot4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Jump On [Bush Woot]7.png\"}",
+        "name": "Jump On [Bush Woot]7",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Jump On -Bush Woot5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Jump On [Bush Woot]8.png\"}",
+        "name": "Jump On [Bush Woot]8",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Jump On -Bush Woot6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Jump On [Bush Woot]9.png\"}",
+        "name": "Jump On [Bush Woot]9",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Opened8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Opened",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Closed3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Closed2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/title4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "title3",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hover Cursor2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Hover Cursor.png\"}",
+        "name": "Hover Cursor",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Smoll Boi Dash3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Smoll Boi Dash.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_00019.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "PNG_00010.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_00020.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "PNG_00011.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_00021.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "PNG_00012.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_00022.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "PNG_00013.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_00023.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "PNG_00014.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_00024.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "PNG_00015.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_00025.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "PNG_00016.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_00026.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "PNG_00017.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_00027.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "PNG_00018.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_0015.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "PNG_0011.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_0016.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "PNG_0012.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_0017.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "PNG_0013.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_0018.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "PNG_0014.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_000193.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Clouds\\Cloud Loop\\PNG_000193.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_000200.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Clouds\\Cloud Loop\\PNG_000194.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_000201.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Clouds\\Cloud Loop\\PNG_000195.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_000202.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Clouds\\Cloud Loop\\PNG_000196.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_000203.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Clouds\\Cloud Loop\\PNG_000197.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_000204.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Clouds\\Cloud Loop\\PNG_000198.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_000205.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Clouds\\Cloud Loop\\PNG_000199.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_00152.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Clouds\\Cloud Intro\\PNG_00109.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_00153.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Clouds\\Cloud Intro\\PNG_00110.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_00154.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Clouds\\Cloud Intro\\PNG_00111.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_00155.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Clouds\\Cloud Intro\\PNG_00112.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_00156.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Clouds\\Cloud Intro\\PNG_00113.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_00157.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Clouds\\Cloud Intro\\PNG_00114.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_00158.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Clouds\\Cloud Intro\\PNG_00115.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_00159.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Clouds\\Cloud Intro\\PNG_00116.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_00160.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Clouds\\Cloud Intro\\PNG_00117.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_00161.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Clouds\\Cloud Intro\\PNG_00118.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_00162.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Clouds\\Cloud Intro\\PNG_00119.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_00163.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Clouds\\Cloud Intro\\PNG_00120.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_00164.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Clouds\\Cloud Intro\\PNG_00121.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_00165.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Clouds\\Cloud Intro\\PNG_00122.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_00166.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Clouds\\Cloud Intro\\PNG_00123.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_00167.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Clouds\\Cloud Intro\\PNG_00124.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_00168.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Clouds\\Cloud Intro\\PNG_00125.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_00169.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Clouds\\Cloud Intro\\PNG_00126.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_00170.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Clouds\\Cloud Intro\\PNG_00127.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_00171.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Clouds\\Cloud Intro\\PNG_00128.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_00172.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Clouds\\Cloud Intro\\PNG_00129.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_00173.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Clouds\\Cloud Intro\\PNG_00130.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_00174.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Clouds\\Cloud Intro\\PNG_00131.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_00175.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Clouds\\Cloud Intro\\PNG_00132.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_00176.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Clouds\\Cloud Intro\\PNG_00133.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_00177.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Clouds\\Cloud Intro\\PNG_00134.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_00178.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Clouds\\Cloud Intro\\PNG_00135.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_00179.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Clouds\\Cloud Intro\\PNG_00136.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_00180.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Clouds\\Cloud Intro\\PNG_00137.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_00181.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Clouds\\Cloud Intro\\PNG_00138.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_00182.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Clouds\\Cloud Intro\\PNG_00139.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_00183.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Clouds\\Cloud Intro\\PNG_00140.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_00184.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Clouds\\Cloud Intro\\PNG_00141.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_00185.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Clouds\\Cloud Intro\\PNG_00142.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_00186.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Clouds\\Cloud Intro\\PNG_00143.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_00187.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Clouds\\Cloud Intro\\PNG_00144.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_00188.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Clouds\\Cloud Intro\\PNG_00145.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_00189.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Clouds\\Cloud Intro\\PNG_00146.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_00190.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Clouds\\Cloud Intro\\PNG_00147.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_00191.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Clouds\\Cloud Intro\\PNG_00148.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_00192.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Clouds\\Cloud Intro\\PNG_00149.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_00193.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Clouds\\Cloud Intro\\PNG_00150.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_00194.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Clouds\\Cloud Intro\\PNG_00151.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_000230.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Clouds\\Front Clouds\\PNG_000216.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_000231.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Clouds\\Front Clouds\\PNG_000217.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_000232.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Clouds\\Front Clouds\\PNG_000218.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_000233.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Clouds\\Front Clouds\\PNG_000219.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_000234.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Clouds\\Front Clouds\\PNG_000220.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_000235.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Clouds\\Front Clouds\\PNG_000221.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_000236.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Clouds\\Front Clouds\\PNG_000222.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_000237.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Clouds\\Front Clouds\\PNG_000223.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_000238.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Clouds\\Front Clouds\\PNG_000224.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_000239.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Clouds\\Front Clouds\\PNG_000225.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_000240.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Clouds\\Front Clouds\\PNG_000226.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_000241.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Clouds\\Front Clouds\\PNG_000227.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_000242.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Clouds\\Front Clouds\\PNG_000228.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_000243.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Clouds\\Front Clouds\\PNG_000229.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_0088.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Place Holders\\Start Up Intro\\PNG_0067.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_0089.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Place Holders\\Start Up Intro\\PNG_0068.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_0090.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Place Holders\\Start Up Intro\\PNG_0069.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_0091.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Place Holders\\Start Up Intro\\PNG_0070.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_0092.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Place Holders\\Start Up Intro\\PNG_0071.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_0093.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Place Holders\\Start Up Intro\\PNG_0072.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_0094.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Place Holders\\Start Up Intro\\PNG_0073.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_0095.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Place Holders\\Start Up Intro\\PNG_0074.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_0096.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Place Holders\\Start Up Intro\\PNG_0075.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_0097.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Place Holders\\Start Up Intro\\PNG_0076.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_0098.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Place Holders\\Start Up Intro\\PNG_0077.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_0099.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Place Holders\\Start Up Intro\\PNG_0078.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_00100.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Place Holders\\Start Up Intro\\PNG_0079.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_00101.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Place Holders\\Start Up Intro\\PNG_0080.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_00102.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Place Holders\\Start Up Intro\\PNG_0081.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_00103.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Place Holders\\Start Up Intro\\PNG_0082.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_00104.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Place Holders\\Start Up Intro\\PNG_0083.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_00105.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Place Holders\\Start Up Intro\\PNG_0084.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_00106.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Place Holders\\Start Up Intro\\PNG_0085.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_00107.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Place Holders\\Start Up Intro\\PNG_0086.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_00108.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Place Holders\\Start Up Intro\\PNG_0087.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Updateddddd Title Screen2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Place Holders\\Updateddddd Title Screen.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_0031.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Smoll Boi\\Death Idle + Squish\\PNG_0029.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_0039.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Smoll Boi\\Death Idle + Squish\\PNG_0034.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_0040.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Smoll Boi\\Death Idle + Squish\\PNG_0035.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_0041.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Smoll Boi\\Death Idle + Squish\\PNG_0036.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_0042.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Smoll Boi\\Death Idle + Squish\\PNG_0037.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_0043.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Smoll Boi\\Death Idle + Squish\\PNG_0038.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_0024.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Smoll Boi\\Death Spin\\PNG_0019.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_0032.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Smoll Boi\\Death Spin\\PNG_0020.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_0033.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Smoll Boi\\Death Spin\\PNG_0021.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_0050.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Smoll Boi\\Death Spin\\PNG_0022.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_0051.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Smoll Boi\\Death Spin\\PNG_0023.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_00073.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Smoll Boi\\Death Spin\\PNG_00034.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_00074.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Smoll Boi\\Death Spin\\PNG_00035.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_00075.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Smoll Boi\\Death Spin\\PNG_00036.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_00076.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Smoll Boi\\Death Spin\\PNG_00037.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_00077.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Smoll Boi\\Death Spin\\PNG_00038.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_00078.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Smoll Boi\\Death Spin\\PNG_00039.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_00079.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Smoll Boi\\Death Spin\\PNG_00040.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_00080.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Smoll Boi\\Death Spin\\PNG_00041.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_00081.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Smoll Boi\\Death Spin\\PNG_00042.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_0052.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Smoll Boi\\Death Spin\\PNG_0045.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_0053.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Smoll Boi\\Death Spin\\PNG_0046.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_0054.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Smoll Boi\\Death Spin\\PNG_0047.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_0055.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Smoll Boi\\Death Spin\\PNG_0048.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_0056.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Smoll Boi\\Death Spin\\PNG_0049.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_000101.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Smoll Boi\\Death Spin\\PNG_000100.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Screenshot 2023-12-05142217.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Place Holders\\Screenshot 2023-12-05 142216.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hover6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hover2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Clicked3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Clicked2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle30.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle16",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle32.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle17",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle33.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle18",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle34.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle19",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle36.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle20",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle37.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle21",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle38.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle22",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle39.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle23",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle40.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle24",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle41.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle25",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle42.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle26",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle43.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle27",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle44.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle28",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle45.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle29",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Opened9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Opened2.png\"}",
+        "name": "Opened2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Opened10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Opened3.png\"}",
+        "name": "Opened3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Opened11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Opened4.png\"}",
+        "name": "Opened4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Opened12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Opened5.png\"}",
+        "name": "Opened5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Opened13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Opened6.png\"}",
+        "name": "Opened6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Opened16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Opened7.png\"}",
+        "name": "Opened7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_00082.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"PNG_00028.png\",\"extension\":\".png\"}",
+        "name": "PNG_00028.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_00083.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"PNG_00029.png\",\"extension\":\".png\"}",
+        "name": "PNG_00029.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_00084.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"PNG_00030.png\",\"extension\":\".png\"}",
+        "name": "PNG_00030.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_00085.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"PNG_00031.png\",\"extension\":\".png\"}",
+        "name": "PNG_00031.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_00086.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"PNG_00032.png\",\"extension\":\".png\"}",
+        "name": "PNG_00032.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_00087.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"PNG_00033.png\",\"extension\":\".png\"}",
+        "name": "PNG_00033.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_00088.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"PNG_00034.png\",\"extension\":\".png\"}",
+        "name": "PNG_00034.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_00089.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"PNG_00035.png\",\"extension\":\".png\"}",
+        "name": "PNG_00035.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Opened17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Opened14.png\"}",
+        "name": "Opened14",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Opened18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Opened15",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cursor2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Place Holders\\Cursor.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Couch1.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Couch ",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_00090.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "PNG_00037.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_00091.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "PNG_00038.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_00092.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "PNG_00039.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_00093.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "PNG_00040.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_00094.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "PNG_00041.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_00095.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "PNG_00042.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_00096.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "PNG_00043.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_00097.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "PNG_00044.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_00098.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "PNG_00045.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_0057.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "PNG_0025.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_0058.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "PNG_0026.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_0059.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "PNG_0027.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_0060.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "PNG_0028.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_0061.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "PNG_0029.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_00099.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "PNG_00046.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_000102.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "PNG_00047.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_000103.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "PNG_00048.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_000104.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "PNG_00049.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_000105.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "PNG_00050.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_000106.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "PNG_00051.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_000107.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "PNG_00052.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_000108.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "PNG_00053.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle46.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle31",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image24.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image8",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image26.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"New Piskel\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":0,\\\"height\\\":32,\\\"width\\\":32,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAC1JREFUWEft0EERAAAAAUH6lxbDZxU4s815PffjAAECBAgQIECAAAECBAgQIDAaPwAh6O5R/QAAAABJRU5ErkJggg==\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAFtJREFUWEft1zEOwDAIQ1G4pg/oa7ZiTNKVkuGzZEEBPXkhJT0xWMkC1wnYzoioXLS8kpbEHRmwXQ0tw+vfXfxrgbbhJYsAAggggAACCCCAAAL3C/x9JnIbjgu8rmqp0BGLodIAAAAASUVORK5CYII=\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[]}}\",\"resourceNames\":[null],\"name\":\"New image\"}}",
+        "name": "New image4",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image27.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/New image23.png\"}",
+        "name": "New image5",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Smoll Boi2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Smoll Boi\\Duck\\Smoll Boi.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Smoll Boi Dash4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Smoll Boi\\Dash\\Smoll Boi Dash.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image28.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image16",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_000109.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"PNG_00059.png\",\"extension\":\".png\"}",
+        "name": "PNG_00059.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_000110.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"PNG_00060.png\",\"extension\":\".png\"}",
+        "name": "PNG_00060.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_000111.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"PNG_00061.png\",\"extension\":\".png\"}",
+        "name": "PNG_00061.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_000112.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"PNG_00062.png\",\"extension\":\".png\"}",
+        "name": "PNG_00062.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_000113.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"PNG_00063.png\",\"extension\":\".png\"}",
+        "name": "PNG_00063.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_000114.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"PNG_00064.png\",\"extension\":\".png\"}",
+        "name": "PNG_00064.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PNG_000115.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"PNG_00065.png\",\"extension\":\".png\"}",
+        "name": "PNG_00065.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle46.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "idle8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/.._.._.._Downloads_title-logo_2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "..\\..\\..\\Downloads\\title-logo_1",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mad2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "mad",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Daydream2.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "Daydream.ttf",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/walk_00010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "walk_0001.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/362a8bd6-30b4-4f93-8609-1c431cc8d1b9/resources/df73302cde7bd4868c66b0176ec8292c76106763baa72f1c704719938d19ffaa-walk_0001.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/walk_00011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "walk_0002.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/362a8bd6-30b4-4f93-8609-1c431cc8d1b9/resources/22e1726271d72204c1d64eb985ebd3d3da7b7ce678ac018dcffd5ae39878c89f-walk_0002.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/walk_00012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "walk_0003.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/362a8bd6-30b4-4f93-8609-1c431cc8d1b9/resources/e57d89fb80390d8fc6846b1cbc68e49bf04543804bbbcb806641a4feff1c0826-walk_0003.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/walk_00013.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "walk_0004.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/362a8bd6-30b4-4f93-8609-1c431cc8d1b9/resources/27ff2b392bef4eea4eb8c4162f3061e7e5a71872ec7a445e3bb4a883427fd33d-walk_0004.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/walk_00014.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "walk_0005.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/362a8bd6-30b4-4f93-8609-1c431cc8d1b9/resources/d80800344ab4210e6c44af3fabb2e77d1c6e3deef239f60f1accea505e0a71f3-walk_0005.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/walk_00015.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "walk_0006.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/362a8bd6-30b4-4f93-8609-1c431cc8d1b9/resources/d0edd06178eb42dfc90860e782423181521a5664bc1f17a57391a681392ddd0d-walk_0006.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/walk_00016.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "walk_0007.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/362a8bd6-30b4-4f93-8609-1c431cc8d1b9/resources/6d9b4e1650646e8bc0c7b68302d1d6bcad4a4c37fa6189b23beb058fa671b9c2-walk_0007.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/walk_00017.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "walk_0008.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/362a8bd6-30b4-4f93-8609-1c431cc8d1b9/resources/27ff2b392bef4eea4eb8c4162f3061e7e5a71872ec7a445e3bb4a883427fd33d-walk_0008.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/walk_00018.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "walk_0009.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/362a8bd6-30b4-4f93-8609-1c431cc8d1b9/resources/858f7efe0558562a40df08e38b549b2a0e6876324b1a4b144d354ca19b0c55ef-walk_0009.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/walk_0011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "walk_0010.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/362a8bd6-30b4-4f93-8609-1c431cc8d1b9/resources/2a0b549ebed770f4c318a9d47f1b9e2d91808ad088807190e73ff77fe1af9c04-walk_0010.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/jump_0005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "jump_0001.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/362a8bd6-30b4-4f93-8609-1c431cc8d1b9/resources/c4ce3157418ee443dd3195bc2ed6400ce935026578bade3193169e83658f7e45-jump_0001.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/jump_0006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "jump_0002.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/362a8bd6-30b4-4f93-8609-1c431cc8d1b9/resources/88ec2befd344e6fae1de80b0a25c0175e3fcd2990a257b3603b1e90d71e2a31f-jump_0002.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/jump_0007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "jump_0003.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/362a8bd6-30b4-4f93-8609-1c431cc8d1b9/resources/91d2cbb84a17ff4cff6e3cf02f6d74fed9293f438bef654eed2d8233533549d7-jump_0003.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/duck2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "duck",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/smoll boi idle.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "smoll boi idle.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/362a8bd6-30b4-4f93-8609-1c431cc8d1b9/resources/801ede78111a8205c0db4ecf04a1656db9cd2fb12018dcbad991263f2ea4afef-smoll boi idle.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/smoll boi f.lling2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "smoll boi f.lling.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/362a8bd6-30b4-4f93-8609-1c431cc8d1b9/resources/0d7d0ebda4cb86da1ca287bd7f27737be5e3798a96e001a199df861e7907887f-smoll boi f.lling.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/smoll boi hurt slide2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "smoll boi hurt slide.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/362a8bd6-30b4-4f93-8609-1c431cc8d1b9/resources/3fa18e8da9cd82fee37441cbdd8039a060e359cf67c4cae9e1cd4c3f6fa9a3c3-smoll boi hurt slide.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/smoll boi f.lling .lt1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "smoll boi f.lling .lt .png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/362a8bd6-30b4-4f93-8609-1c431cc8d1b9/resources/82b7a4860bf2230554046233e57c9f4d85bf4f8fe40c836e9683c32b5509ff7d-smoll boi f.lling .lt .png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/smoll boi d.sh2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "smoll boi d.sh.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/362a8bd6-30b4-4f93-8609-1c431cc8d1b9/resources/fdf39cc4c06b43f7a48f1856c67f3fbe3e5ce6b58b8817ac351eb7f34cb266b1-smoll boi d.sh.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Screenshot 2024-05-21230541.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot 2024-05-21 230540.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/362a8bd6-30b4-4f93-8609-1c431cc8d1b9/resources/8b5af16d1bafa76e321dd84b4a1510bb15375555ccc8f3bdae82c669888b8016-Screenshot 2024-05-21 230540.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/smoll boi double jump.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "smoll boi double jump.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/362a8bd6-30b4-4f93-8609-1c431cc8d1b9/resources/be86fcddf4cf29bc0425434274ceee183dbb4421f52ec5ab2d43114ad9e6a390-smoll boi double jump.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/double jump8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "double jump",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/double jump9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "double jump2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/double jump10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "double jump3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/double jump11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "double jump4",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/double jump12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "double jump5",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/double jump13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "double jump6",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/double jump14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "double jump7",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/jump_0008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "jump_0004.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6712d0e6-0d73-412b-bad5-033081b54cca/resources/7ddb2312dc4b94248ed1b8220099868fd82af83a0d3a4c4533c70b0a283720e2-jump_0004.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dash Jump.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dash Jump",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dash Jump2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dash Jump2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dash Jump3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dash Jump3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dash Jump4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dash Jump4",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dash Jump5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dash Jump5",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dash Jump6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dash Jump6",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dash Jump7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dash Jump7",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dash Jump8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dash Jump8",
+        "smoothed": true,
+        "userAdded": true
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT"
+  },
+  "objectsGroups": [],
+  "variables": [
+    {
+      "name": "GameVol",
+      "type": "number",
+      "value": 20
+    },
+    {
+      "folded": true,
+      "name": "Did_Player_Retry_2",
+      "type": "string",
+      "value": "no"
+    },
+    {
+      "folded": true,
+      "name": "SwitchOptionTo",
+      "type": "number",
+      "value": 0
+    }
+  ],
+  "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/better-title-screen"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/level-1"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/game-over-screen"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/stuff-to-hold-things"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/level-1-the-tutorial"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/testing"
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/flexbox"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/boidsmovement"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/behaviorremapper"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/advancedprojectile"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/screenwrap"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/buttonstates"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/soundvolumebasedondistance"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/choose"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/cameraimpulse"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/regex"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/alignobject"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/flipgravity"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/cursortype"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/texttospeech"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/faceforward"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/animatedbackandforthmovement"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/emojis"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/magneticeffect"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/flashtransitionpainter"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/firebullet"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/panelspriteslider"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/doubleclick"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/roombasedcameramovement"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/doublekeypress"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/objectstack"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/timeformatter"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/cursormovement"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/spritebasedlighting"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/popup"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/sway"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/autotyping"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/toggleswitch"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/pausefocuslost"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/shadowclones"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/jointconnector"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/rendertosprite"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/spritesheet"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/platformertrajectory"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/isonscreen"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/snaptogrid"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/mousehelper"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/backbutton"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/spritemasking"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/deptheffect"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/fps"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/followobjectswithcamera"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/spritetoggleswitch"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/sinemovement"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/haslanded"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/dragcamerawithpointer"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/charactergamefeel"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/flash"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/timedbackandforthmovement"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/copycamerasettings"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/turret"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/edgescrollcamera"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/hexagonalgrid"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/makeitrain"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/flashlayer"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/clock"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/repeateveryxseconds"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/topdownmovementanimator"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/cheatcode"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/idletracker"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/objectspawner"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/camerashake"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/panelspritecontinuousbar"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/tiledunitsbar"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/animationsystem"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/camerazoom"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/homingprojectile"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/pointandorbit"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/sticker"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/boomerang"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/bounce"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/orbitingobjects"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/curvedmovement"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/stayonscreen"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/traveltorandompositions"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/platformledgegrabber"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/advancedjump"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/health"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/keypress"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/untitledextension"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/spritehover"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/dynamicdialog"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/dialogbox"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/drawshockwaveeffect"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/chatbubble"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/panelspritebutton"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/platformercharacteranimator"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/rectanglemovement"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/smoothcamera"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/checkpoints"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/gamepads"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/spritemultitouchjoystick"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/shakeobject"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/volumefalloff"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/enemy"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/player"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/userinterface"
+    }
+  ],
+  "externalLayouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/level-1"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/untitled-external-layout2"
+    }
+  ],
+  "externalSourceFiles": []
+}
